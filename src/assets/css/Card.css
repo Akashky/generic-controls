@@ -1,0 +1,32 @@
+.card {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-header,
+.card-footer {
+  padding: 10px;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #ddd;
+}
+
+.card-footer {
+  border-top: 1px solid #ddd;
+  border-bottom: none;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.custom-card {
+  margin-bottom: 20px;
+}

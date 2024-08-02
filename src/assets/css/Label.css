@@ -1,0 +1,27 @@
+.label {
+  font-size: 16px;
+  color: #333;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.label.small {
+  font-size: 12px;
+}
+
+.label.medium {
+  font-size: 16px;
+}
+
+.label.large {
+  font-size: 20px;
+}
+
+.label.disabled {
+  color: #c0c0c0;
+  cursor: not-allowed;
+}
+
+.custom-label {
+  color: #007bff;
+}

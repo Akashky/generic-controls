@@ -1,0 +1,43 @@
+/* Header.css */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 15vh;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    background-color: var(--header-bg-color, #f8f9fa); /* Default background color */
+}
+
+.header-left, .header-center, .header-right {
+    flex: 1;
+}
+
+.header-center {
+    text-align: center;
+}
+
+.header-right {
+    text-align: right;
+}
+
+body {
+    padding-top: 60px;
+}
+
+
+.nav a {
+    text-decoration: none;
+    color: inherit;
+    padding: 10px; /* Adjust as needed */
+}
+
+.nav a.active {
+    font-weight: bold;
+}
+

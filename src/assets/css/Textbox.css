@@ -1,0 +1,31 @@
+.textbox {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.textbox.small {
+    padding: 5px;
+    font-size: 14px;
+}
+
+.textbox.medium {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.textbox.large {
+    padding: 15px;
+    font-size: 18px;
+}
+
+.textbox.disabled {
+    background-color: #f0f0f0;
+    cursor: not-allowed;
+}
+
+.custom-textbox {
+    border-color: #007bff;
+}

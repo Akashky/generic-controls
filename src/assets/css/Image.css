@@ -1,0 +1,15 @@
+img {
+  border: none;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+img.hidden {
+  display: none;
+}
+
+.custom-image {
+  border: 2px solid #007bff;
+  border-radius: 8px;
+}

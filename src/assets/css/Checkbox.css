@@ -1,0 +1,32 @@
+.checkbox {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.checkbox input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(1.2);
+}
+
+.checkbox.small input[type="checkbox"] {
+    transform: scale(0.8);
+}
+
+.checkbox.medium input[type="checkbox"] {
+    transform: scale(1);
+}
+
+.checkbox.large input[type="checkbox"] {
+    transform: scale(1.5);
+}
+
+.checkbox.disabled {
+    cursor: not-allowed;
+    color: #c0c0c0;
+}
+
+.checkbox .label {
+    cursor: pointer;
+}

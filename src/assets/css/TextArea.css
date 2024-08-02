@@ -1,0 +1,30 @@
+.textarea {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.textarea.small {
+    font-size: 14px;
+}
+
+.textarea.medium {
+    font-size: 16px;
+}
+
+.textarea.large {
+    font-size: 18px;
+}
+
+.textarea.disabled {
+    background-color: #f0f0f0;
+    cursor: not-allowed;
+}
+
+.custom-textarea {
+    border-color: #007bff;
+}
